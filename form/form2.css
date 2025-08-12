@@ -1,0 +1,54 @@
+th,td{
+  border: 1px solid black;
+  padding: 10px 60px;
+  text-align: center;
+  border-radius: 10px;
+  
+}
+table{
+  /* border-collapse: collapse; */
+  /* border-radius: 10px; */
+}
+
+th {
+  background-color: #f4f4f4; 
+  font-weight: bold; 
+}
+
+.submit{
+  background-color: green;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.submit:hover{
+  background-color: rgb(49, 121, 49);
+}
+.submit:active{
+  background-color: lightgreen;
+}
+.reset{
+  background-color: red;
+  font-size: 25px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.reset:hover{
+  background-color: rgb(187, 58, 58);
+}
+.reset:active{
+  background-color: lightcoral;
+}
