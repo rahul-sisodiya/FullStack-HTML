@@ -1,0 +1,41 @@
+.para{
+  font-size: 150px;
+  cursor: pointer;
+}
+
+.para:hover{
+
+  text-decoration: underline;
+}
+.para:active{
+  color: cadetblue;
+}
+
+*{
+  font-family: cursive;
+}
+
+#top-heading{
+  color: aqua;
+}
+.article{
+  color: red;
+}
+.para{
+  color: cadetblue;
+}
+#first{
+  font-size: 20px;
+  color: brown;
+}
+
+#second{
+  font-size: 30px;
+  color: greenyellow;
+}
+
+h1,h2,h3,h4{
+
+  background-color: yellow;
+  
+}
