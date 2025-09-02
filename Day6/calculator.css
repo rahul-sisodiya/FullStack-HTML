@@ -6,17 +6,23 @@
 body{
   align-items: center;
 }
-.label{
+/* .label{
   align-items: end;
-}
+} */
 
 .container .panel .feed{
   font-size: 70px;
   text-align: right;
-  padding: 50px 10px;
+  padding: 20px 10px;
   color: white;
 }
-
+.container .panel .small-feed{
+  font-size: 50px;
+  text-align: right;
+  padding: 0px 10px;
+  color: white;
+  opacity: 0.6;
+}
 .container{
   background-color: #1c1c1c;
   display: inline-block;

@@ -1,0 +1,31 @@
+p{
+  font-size: 50px;
+  transition: color 0.5s, background-color 0.5s;
+}
+p:hover{
+  color: red;
+  background-color: cadetblue;
+}
+p:active{
+  color: blue;
+  background-color: red;
+}
+
+button{
+  font-size: 35px;
+  padding: 15px 30px;
+  border-radius: 35px;
+  background-color: #c4c4c4;
+  color: white;
+  cursor:pointer;
+  border: none;
+  margin-top: 100px;
+  
+}
+button:hover{
+  opacity: 0.8;
+}
+
+button:active{
+  opacity: 0.6;
+}
